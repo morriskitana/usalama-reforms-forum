@@ -12,9 +12,10 @@ leadership, programmes, publications and contact details.
 - Home, About, Focus areas, Community Safety Model, Research, Contact
 - No backend, no database, no tracking. The contact form composes a mailto
   link to `info@usalamaforum.org` — nothing is stored on the site.
-- Logo: the wordmark in the header is a placeholder. Replace it with the
-  Forum's official logo file when supplied. The low-resolution image uploaded
-  for this build (300×169, black background) was not used as a logo.
+- Logo: the Forum's official lockup, supplied by Morris, at `public/logo.webp`
+  (transparent background, verified readable on white). It is used in the
+  site header. The footer stays text-only because the lockup's black
+  lettering would not read on the dark footer background.
 
 ## Deliberate non-claims
 

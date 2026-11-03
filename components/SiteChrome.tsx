@@ -4,13 +4,8 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="wrap header-inner">
-        <Link href="/" className="brand">
-          <span className="brand-mark">U<span>.</span></span>
-          <span>
-            <span className="brand-name">Usalama</span>
-            <br />
-            <span className="brand-sub">Reforms Forum</span>
-          </span>
+        <Link href="/" className="brand" aria-label="Usalama Reforms Forum — home">
+          <img src="/logo.webp" alt="The Usalama Reforms Forum" className="brand-logo" />
         </Link>
         <nav className="nav" aria-label="Main navigation">
           <Link href="/about">About</Link>
